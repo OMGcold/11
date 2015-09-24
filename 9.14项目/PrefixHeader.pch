@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  WXMovie
+//
+//  Created by 齐鸣宇 on 15/4/7.
+//  Copyright (c) 2015年 齐鸣宇. All rights reserved.
+//
+
+#ifndef WXMovie_PrefixHeader_pch
+#define WXMovie_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "WXDataSerivce.h"
+#import "UIViewExt.h"
+#import "UIImageView+WebCache.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one ormore of your targets to reference this file.
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#endif
+
